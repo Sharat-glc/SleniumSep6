@@ -10,7 +10,7 @@ public class AccountSummary {
 	public AccountSummary(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
-	
+	// Changes done according to version 20.1
 	@FindBy(linkText="Transfer Funds")
 	private WebElement tranferFunds;
 	
